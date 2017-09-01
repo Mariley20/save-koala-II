@@ -1,0 +1,139 @@
+/*
+wood brown: A89F68;
+army green: 41521F;
+*/
+
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+
+.blanco {
+    color: #fff;
+}
+
+.brown {
+    color: #A89F68;
+}
+
+.green {
+    color: #41521F;
+}
+
+.navbar-inverse {
+    background-color: rgba(65, 82, 31, 0.6);
+    border-color: rgba(8, 8, 8, 0);
+}
+
+.navbar-inverse .navbar-brand {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+    background-color: transparent;
+    border: 0px;
+}
+
+#home {
+    background: url('../img/portada.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 30%;
+}
+
+.title-home,
+.parrafo-home {
+    color: #fff;
+}
+.title-home {
+    margin-top: 25%;
+}
+.btn-default {
+    color: #fff;
+    background: #41521F;
+    margin: 10px;
+    border-color: rgba(8, 8, 8, 0);
+}
+.btn-default:hover {
+    background-color: rgba(65, 82, 31, 0.6);
+    color: #fff;
+}
+/*section informacion*/
+
+#informacion {
+    padding-top: 20px;
+}
+.parrafo-informacion {
+    padding: 6% 4px;
+}
+/* carousel*/
+
+.carousel-inner {
+    height: 330px;
+}
+/*section help*/
+
+#help {
+    background-color: #A89F68;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+#help img {
+    padding: 10px;
+    background-color: #FFF;
+    margin: 6% auto;
+}
+/*section  help2*/
+
+#help2 {
+    background: url('../img/all.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+}
+
+#help2 .text {
+    padding-top: 5%;
+    padding-bottom: 30%;
+    color: #fff;
+}
+/*section help 3*/
+
+#help3,
+#help2 {
+    text-align: center;
+}
+/*section donate*/
+
+#donate {
+    background-color: #A89F68;
+    text-align: center;
+    padding: 5% 0px;
+}
+.collapse span {
+    background-color: rgba(65, 82, 31, 0.6);
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+}
+
+
+/*section footer*/
+
+footer {
+    padding: 10px 10px;
+    background: #41521F;
+}
+
+.link-footer {
+    padding: 5% 3px;
+}
